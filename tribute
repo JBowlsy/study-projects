@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+</style>
+
+<main id="main">
+
+<h1 id="title">Wile E. Coyote</h1>
+<p>A hero in the making</p>
+
+<div id="img-div">
+	<img id="image" src="kindpng_2020660.png" class="center" alt="Wile E. Coyote pose"> </img>
+<figcaption id="img-caption">
+Wile E. Coyote posing</figcaption>
+</div>
+
+
+<section id="tribute-info">
+<h3 id="headline"><u>An introduction</u></h3>
+
+<ul>
+
+<li><strong>1949</strong> Starting out in an episode named "Fast and furry-ous",  Wile E. Coyote has now been featured in 48 cartoons, most of which were directed by Chuck Jones. His genius is often understated in each episode as Road Runner gets the best of him usually through nefarious means.
+</li>
+<br>
+<li>
+As the predator in this show, his natural instinct is to eat Road Runner, but the selfishness and vindictiveness of said bird, is undeniably one of the most harrowing things to watch on TV.
+</li>
+</br>
+<li>
+While it is natural for most of us to root for Wile E. Coyote, there has been an uncontrolled mob of followers of Road Runner who have been determined to besmirch the coyote's good nam.
+</li>
+</br>
+<li>
+We must bring them down.
+</li
+<br>
+
+<p>You can find out more about 
+<a id="tribute-link" href="https://en.wikipedia.org/wiki/Wile_E._Coyote_and_the_Road_Runner" target="_blank">Wile E. Coyote</a> here</p>
+<br>
+<div class="center">
+</div>
+</section>
+
+</"main">
+
+</html> 
