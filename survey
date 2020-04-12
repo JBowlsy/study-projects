@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+h1{
+	font-size: 250%;
+  font-family: cooper;
+  margin: 5%;
+}
+  .border{
+    border-color: red;
+  border-width:10px;
+  border-style:solid;
+    border-radius: 10px;
+  }
+#description{
+  font-style: italic;
+  font-weight: bold;
+}
+p{
+  text-align:center;
+  font-family: helvetica;
+}
+form{
+  text-align:center;
+  font-family: helvetica;
+}
+article{
+  text-align:center;
+  font-family: helvetica;
+}
+#dropdown{
+  margin: 1%;
+}
+
+#annoy{
+  font-size: 150%;
+  font-family: centurygothic;
+}
+fieldset{
+  border:0 ;
+}
+</style>
+
+
+
+<main>
+  <header>
+<h1 id="title" class="border">
+Nip twists to Indian burns: Where do you stand?
+</h1>
+    <hr>
+    
+<p id="description">
+ Survey on the best ways to injure someone in a funny way
+      </p>
+  </header>
+  
+  <article>
+    <h2>
+ Contact Us
+    </h2>
+    <p>
+      <ul>
+      We have an urgent request to the public. <br>
+      We need you to tell us the best way to injure someone in a 
+      comical way,<br>
+      our experience tells us that a quick purple nurple give the greatest results.<br>
+        But where do you stand?
+    </ul>
+        </p>
+  
+    <h2>
+  Contact details
+    </h2>
+    
+    <section>
+Xyz Governemt offical place<br>      Wherever<br><br>
+    </section>
+  </article> 
+  
+
+<form id="survey-form">
+<fieldset id="personal-info">
+
+    <label id="name-label">Name:</label>
+<input type="text" id="name" placeholder="Full name" required>
+  
+    
+
+  <label id="email-label">Email:</label>
+<input type="email" id="email"required placeholder="Email">
+  
+  
+      <label id="number-label">Age:</label>
+<input type="number" id="number"required placeholder="Age" min="16" max="100">
+  </fieldset>
+  
+   
+  <label for="dropdown">Choose a technique</label>
+  <select id="dropdown">
+    <option value="indian burn">Indian Burn</label>
+    <option value="ear flick">Ear Flick</label>
+    <option value="nipple twist">Nipple Twist</label>
+    <option value="stabbing">Stabbing</label>
+</select>
+
+<p><strong><label id="annoy">Best time of day to annoy</label></strong></p>
+
+<fieldset id="checkbox-selection">
+  <label>Morning</label><input type="checkbox" name="time" value="Morning">
+  <label>Afternoon</label><input type="checkbox" name="time" value="Afternoon">
+  <label>Evening</label><input type="checkbox" name="time" value="Evening">
+  <label>Night</label><input type="checkbox" name="time" value="Night">
+  <label>All the time</label><input type="checkbox" name="time" value="All-the-time">
+  </fieldset>  
+
+<fieldset id=radio-button-selection>
+  <label for="Survey-standards" id="review">Have we listed all useful options?</label>
+  <input type="radio" name="review" value="yes" checked> Yes
+  <input type="radio" name="review" value="no" checked> No
+</fieldset>
+
+ <div>    
+ <label for ="textarea-label" id="additional-choices">Let us know if we have missed something:
+   </label></div>                              
+<br>
+<textarea id="comments" name="feedback" type="text" placeholder=Feedback>
+</textarea>
+
+<button type="submit" id="submit">Submit</button>                         
+
+</form>
+</main>
+</html>
